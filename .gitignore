@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+
+furits/
+
+*.pyc
+
+accuracy_graph.png
+loss_graph.png
+
+.vscode/
