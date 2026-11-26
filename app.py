@@ -139,13 +139,13 @@ if uploaded_file:
     predicted_class = class_names[predicted_index]
     confidence = float(prediction[predicted_index] * 100)
 
-    st.subheader("📈 Training Accuracy Graph")
+    # st.subheader("📈 Training Accuracy Graph")
 
-    st.image("accuracy_graph.png")
+    # st.image("accuracy_graph.png")
 
-    st.subheader("📉 Training Loss Graph")
+    # st.subheader("📉 Training Loss Graph")
 
-    st.image("loss_graph.png")
+    # st.image("loss_graph.png")
 
     with col2:
 
